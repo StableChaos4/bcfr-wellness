@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behavioral Health | BCFR Wellness</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root { --bcfr-blue: #003D52; --bcfr-gold: #c39d5c; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #f4f4f4; }
+        
+        /* Nav & Header Replicated */
+        .header-mini { background: #000; padding: 10px 0; border-bottom: 3px solid var(--bcfr-blue); }
+        .logo-small { max-height: 60px; }
+        
+        .hero-bh { 
+            background: linear-gradient(rgba(0,61,82,0.85), rgba(0,61,82,0.85)), url('bh-bg.jpg'); 
+            color: white; padding: 80px 0; text-align: center;
+        }
+
+        .resource-card { 
+            border: none; border-top: 5px solid var(--bcfr-blue); 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: 0.3s;
+        }
+        .resource-card:hover { transform: translateY(-5px); }
+        .btn-bcfr { background: var(--bcfr-blue); color: white; border-radius: 0; font-weight: 700; }
+        .btn-bcfr:hover { background: var(--bcfr-gold); color: #000; }
+    </style>
+</head>
+<body>
+
+    <div class="header-mini text-center">
+        <a href="index.html">
+            <img src="https://s3.amazonaws.com/tscustomers.targetsafety.com/17453_logo.png?v=201402240942020899" class="logo-small">
+        </a>
+    </div>
+
+    <section class="hero-bh">
+        <div class="container">
+            <h1 class="display-4 fw-bold text-uppercase">Behavioral Health</h1>
+            <p class="lead">Proactive mental wellness and crisis resources for Brevard County Fire Rescue.</p>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card resource-card h-100 p-4">
+                    <h3 class="fw-bold">UCF Restores</h3>
+                    <p class="text-muted">A leading-edge clinical research center that provides **no-cost** trauma treatment specifically for Florida First Responders.</p>
+                    <ul class="mb-4">
+                        <li>3-week intensive outpatient program</li>
+                        <li>Evidence-based PTSD treatment</li>
+                        <li>Confidential & tailored for Fire/EMS</li>
+                    </ul>
+                    <a href="https://ucfrestores.com/" target="_blank" class="btn btn-bcfr mt-auto">Access UCF Restores</a>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card resource-card h-100 p-4">
+                    <h3 class="fw-bold">Brevard County EAP</h3>
+                    <p class="text-muted">The Employee Assistance Program provides confidential counseling for you and your household members.</p>
+                    <ul>
+                        <li>Stress & Anxiety management</li>
+                        <li>Financial or Legal counseling</li>
+                        <li>Available 24/7/365</li>
+                    </ul>
+                    <a href="http://www.iaff2969.com/?zone=/unionactive/view_page.cfm&page=Health" target="_blank" class="btn btn-bcfr mt-auto">Brevard EAP Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold border-bottom border-warning d-inline-block pb-2 mb-4">BCFR Peer Support Team</h2>
+            <p class="fs-5">Sometimes the best person to talk to is the one who has been in the seat next to you.</p>
+            <p>For immediate peer-to-peer assistance, refer to the station posters for the current Peer Support Duty Phone.</p>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center text-muted">
+        <small>© 2026 BCFR Wellness Portal | In Partnership with Local 2969</small>
+    </footer>
+
+</body>
+</html>
